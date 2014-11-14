@@ -11,7 +11,6 @@ For parsing XML files of sequence identity clusters of PDB.org
 from urllib import urlretrieve
 from xml.dom import minidom
 
-
 def cluster_lists(PDB,chain):
     """
 
